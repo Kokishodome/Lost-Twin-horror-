@@ -1,0 +1,28 @@
+body{
+    background-image: url('abandoned_background.jpeg');
+    background-size: cover;
+    font-family: "Bellefair", serif;
+}
+
+#game{
+    background-color: rgba(0, 0, 0, 0.523);
+    backdrop-filter: blur(10px);
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+h1{
+    color: white;
+    text-align: center;
+    font-size: 40px;
+
+}
+
+p{
+    color: white;
+    text-align: center;
+    font-size: 20px;
+}
