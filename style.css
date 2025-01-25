@@ -26,3 +26,12 @@ p{
     text-align: center;
     font-size: 20px;
 }
+
+#buttons{
+    text-align: center;
+    background-color: rgba(104, 97, 97, 0);
+}
+
+img{
+    width: 100%;
+}
