@@ -119,13 +119,47 @@ let story={
    mainRoom:{
     text:'you have entered the main room',
     choices: [
-             {text:'stay in the main room', place:'mainRoom'},
+             {text:'stay in the main room', place:'mainRoomTwo'},
              {text:'go to the kitchen', place:'kitchen'},
              {text:'go to the basement', place:'basement'},
              {text:'go to the guest room', place:'guestRoom'},
     ]
    },
 
+   mainRooomTwo:{
+    text:'You see a torn up couch with someting underneath',
+    choices: [
+        {text:'look under the couch', place:'couch'},
+        {text:'go back', place:'mainRoom'},
+    ]
+   },
+
+
+   kitchen:{
+    text:'There is a table and fridge',
+    choices: [
+        {text:'check the fridge', place:'fridge'},
+        {text:'check the table', place:'table'},
+        {text:'go back', place:'mainRoom'},
+    ]
+   },
+
+    fridge:{
+        text:'',
+    },
+
+
+    basement:{
+        text:'A monster kills you <br> why did you check the basement?',
+    },
+
+
+    guestRoom:{
+        text:'You see two empty bunk beds',
+        choices: [
+            {text:'go back', place:'mainRoom'},
+        ]
+    }
 
    
     
