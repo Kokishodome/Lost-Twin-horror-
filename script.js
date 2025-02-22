@@ -317,7 +317,7 @@ let story={
     },
 
     main:{
-        text:'there is a utility room, looks like there is dog food',
+        text:'its the same as before, but...more strange.',
         choices: [
             {text:'G0 t0 th3 m@1n ro0m', place:'mainRoomTwo'},
             {text:'G0 t0 th3 k1tch3n', place:'kitchenTwo'},
