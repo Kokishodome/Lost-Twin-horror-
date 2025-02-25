@@ -12,6 +12,7 @@ body{
     margin: auto;
     border-radius: 20px;
     padding: 20px;
+    
 }
 
 h1{
@@ -39,4 +40,11 @@ img{
 iframe{
     display: block;
     margin: auto;
+    position: fixed;
+    z-index: 7;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    width: 0;
 }

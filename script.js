@@ -6,6 +6,7 @@ let apple=false
 let creature=false
 let shake=Math.random()>0.5 ? true:false
 let shakeCounter=0
+let iframe=document.getElementById('iframe')
 
 
 console.log(boxRandomNumber);
@@ -476,6 +477,9 @@ function showPlace(place){
         button.innerHTML=story[place].choices[i].text
         buttons.appendChild(button)
         button.onclick=function(){
+            if(story[place].choices[i].place=='runCorridor'){
+                  iframe.style.width = '100%'
+            }
             if(story[place].choices[i].text=='shake'){
                 shakeCounter++
                 if(shakeCounter==3){
