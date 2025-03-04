@@ -31,6 +31,8 @@ p{
 #buttons{
     text-align: center;
     background-color: rgba(104, 97, 97, 0);
+    cursor: pointer;
+    
 }
 
 img{
@@ -47,4 +49,16 @@ iframe{
     width: 100%;
     height: 100%;
     width: 0;
+}
+
+
+#buttons button {
+    background-color: rgb(27, 27, 67);
+    color: white;
+    border-radius: 20px;
+    margin-left: 7px;
+    margin-right: 7px; 
+    padding: 0 10px; 
+    cursor: pointer;
+
 }

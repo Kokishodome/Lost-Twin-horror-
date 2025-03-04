@@ -388,7 +388,7 @@ let story={
     },
 
     guestRoomTwo:{
-        text:'there are the same bunk beds but, they are covered in <br> bl00d!?',
+        text:'there are the same bunk beds but, they are covered in <br> in the green liquid!?',
         choices: [
             {text:'go back', place:'main'},
             
